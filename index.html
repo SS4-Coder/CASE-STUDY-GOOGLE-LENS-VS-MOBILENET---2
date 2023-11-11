@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Case Study</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<body>
+<center>
+<h3>CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</h3>
+<h2>GOOGLE LENS</h2>
+<h2>VS</h2>
+<h2>MOBILENET</h2>
+<hr>
+</center>
+<ol>
+<div class="test_image_and_result col-xs-12">
+     
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Bottle.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Soap Dispenser</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+<h4>GOOGLE LENS IS MORE ACCURATE</h4>
+<HR>
+</div>
+</div>
+<br>
+
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="BED.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Dekstop Computer</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>GOOGLE LENS IS MORE ACCURATE</h4>
+    <hr>
+</div>
+</div>
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Belt.jpeg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Buckle</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>BOTH  WERE SIMILAR</h4>
+    <hr>
+</div>
+</div>
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Perfume.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Perfume and Essence</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>BOTH HAVE SIMILAR RESULTS</h4>
+    <hr>
+</div>
+</div>
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Pillows.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Pillows</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>BOTH WERE SIMILAR</h4>
+    <hr>
+</div>
+</div>
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Poloroid Caamera.png" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Combination Lock</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>GOOGLE LENS IS MORE ACCURATE</h4>
+    <hr>
+</div>
+</div>
+
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Socks.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Television screen</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>GOOGLE LENS IS MORE ACCURATE</h4>
+    <hr>
+</div>
+</div>
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="Sunglasses.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as Sunglasses</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>BOTH HAVE SIMILAR RESULTS</h4>
+</div>
+
+</div>
+
+<div class="test_image_and_result col-xs-12">
+     <hr>
+    <li class="col-sm-4 col-xs-12">
+    <b>Test Image - </b>
+    <img src="School-Bag.jpg" class="img-responsive">
+    </li>
+
+    <h5 class="col-sm-4 col-xs-12">
+    Output on <b>GOOGLE LENS</b> -
+<span>Exact Image Identified</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+<span>Image Identified as School Bag</span>
+</h5>
+
+<div class="mini_result" class="col-xs-12">
+    <h4>Result - </h4>
+    <h4>GOOGLE LENS IS MORE ACCURATE</h4>
+    <hr>
+</div>
+</div>
+<br>
+<div class="conclude">
+    <br>
+    <br>
+    <br>
+<p class="btn btn-info">I have tested 9 images
+    <br>
+<b>GOOGLE LENS</b> was able to predict all 9 of them correctly whereas <b>MOBILENET</b> could only guess 4 right
+<br>
+So, according to my Case Study <b>GOOGLE LENS</b> is better
+</p>
+</div>
+</ol>
+</body>
+<script src="main.js"></script>
+</html> 
